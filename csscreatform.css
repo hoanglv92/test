@@ -1,0 +1,15 @@
+#body{
+    margin:0 auto;
+    width: 310px;
+    height: 390px;
+    background: pink;
+    border:1px solid black;
+
+
+}
+#sothich{
+    color: #1725ff;
+}
+#danhsachsothich{
+    color: #ff2c37;
+}
