@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Biểu Mẫu đầy đủ</title>
+</head>
+<body>
+<h1>
+    <form action="sever" method="post">
+        <legend>
+            <p style="color: #ff2c37">Vui Lòng Nhập Đầy Đủ Dữ Liệu
+                </p>
+
+
+Tài Khoản<br>
+        <input name="account" type="text" value="Tài Khoản"/> <br>
+        Mật Khẩu <br>
+        <input name="password" type="password" /><br>
+        Bạn đến từ thành phố nào?<br>
+
+        <select name="city">
+            <option value="HY"> Hưng Yên </option>
+            <option value="HN"> Hà Nội </option>
+            <option value="DN"> Đà Nẵng </option>
+            <option value="HCM"> TP Hồ Chí Minh </option>
+        </select>
+<p style="color: #1725ff">Vui Lòng Chọn Tính Năng Mà Bạn Muốn
+</p>
+            <label><input name="tinhnang" value="connect" type="radio" checked/>truy cập vào máy chủ</label><br>
+            <label><input name="tinhnang" value="connect mayao" type="radio"/>truy cập vào máy ảo</label><br>
+            <label><input name="tinhnang" value="connect clead data" type="radio"/>truy cập vào data</label><br>
+
+
+            <p style="color: #0cff0e"> Hãy Điền Rõ Họ tên của bạn</p> <br>
+            <input name="fristname" type="text" value="Họ"/>
+            <input name="lastname" type="text" value="Tên"/><br>
+
+            <p style="color: #1cfffd">Hãy Nhập email</p> <br>
+            <input name="email" type="text"value="email"/> <br>
+            <p style="color: aqua">Hãy Nhập SDT Của Bạn</p> <br>
+            <input name="fist4phone" type="text" value=" 4 số đầu tiên"/>
+            <input name="last3phone" type="text" value="3 số tiếp theo"/>
+            <input name="3lastphone" type="text" value="3 số cuối"/> <br>
+            <input name="reset" type="reset" value="Làm Lại Từ Đầu"/><br>
+<input name="submit" type="submit" value="Submit" />
+
+
+
+
+
+
+        </legend>
+
+    </form>
+</h1>
+
+
+
+</body>
+</html>
