@@ -1,0 +1,22 @@
+#tieude{
+    text-align: center;
+    color: #1725ff;
+}
+td{
+    height:50px;
+    text-align: center;
+
+
+}
+table{
+    border:1px ;
+}
+body{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+#d2{
+    table-border-style: outset;
+
+}
