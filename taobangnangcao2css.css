@@ -16,7 +16,6 @@ body{
     height: 400px;
     margin: 0 auto;
 }
-#d2{
-    table-border-style: outset;
-
+th{
+    border:0px;
 }
